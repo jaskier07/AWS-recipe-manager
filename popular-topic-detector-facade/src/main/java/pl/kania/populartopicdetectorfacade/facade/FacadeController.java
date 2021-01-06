@@ -16,7 +16,11 @@ public class FacadeController {
     private FacadeProperties facade;
     
     @GetMapping("/version")
-    public String version() {
+    public String getVersion() {
         return facade.getApiVersion();
+    }
+
+    public String getPopularTopic() {
+        return null;
     }
 }
