@@ -9,10 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>pl.kania</groupId>
-	<artifactId>popular-topic-detector-wykop</artifactId>
+	<artifactId>aws-reports</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>popular-topic-detector-wykop</name>
-	<description>Demo project for Spring Boot</description>
+	<name>aws-reports</name>
 
 	<properties>
 		<java.version>15</java.version>

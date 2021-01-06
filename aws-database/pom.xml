@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pl.kania</groupId>
-    <artifactId>popular-topic-detector-facade</artifactId>
+    <artifactId>aws-database</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>popular-topic-detector-facade</name>
+    <name>aws-database</name>
 
     <properties>
         <java.version>15</java.version>
