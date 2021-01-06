@@ -26,3 +26,6 @@ hs_err_pid*
 *.mvn/*
 *.mvnw
 *.mvnw.cmd
+
+./idea/*
+
