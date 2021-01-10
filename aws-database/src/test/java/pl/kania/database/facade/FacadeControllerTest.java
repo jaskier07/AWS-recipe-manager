@@ -1,17 +1,16 @@
-package pl.kania.populartopicdetectorfacade.facade;
+package pl.kania.database.facade;
 
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
-import pl.kania.populartopicdetectorfacade.configuration.FacadeProperties;
+import pl.kania.database.configuration.AppProperties;
 
-@EnableConfigurationProperties(value = FacadeProperties.class)
+@EnableConfigurationProperties(value = AppProperties.class)
 @WebMvcTest(FacadeController.class)
 class FacadeControllerTest {
 

@@ -1,19 +1,17 @@
-package pl.kania.populartopicdetectorfacade.facade;
+package pl.kania.database.facade;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pl.kania.populartopicdetectorfacade.configuration.FacadeProperties;
+import pl.kania.database.configuration.AppProperties;
 
 @RestController
 @RequestMapping("api")
 public class FacadeController {
 
     @Autowired
-    private FacadeProperties facade;
+    private AppProperties facade;
     
     @GetMapping("/version")
     public String getVersion() {

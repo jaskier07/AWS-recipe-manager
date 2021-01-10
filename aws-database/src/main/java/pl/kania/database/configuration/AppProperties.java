@@ -1,4 +1,4 @@
-package pl.kania.populartopicdetectorfacade.configuration;
+package pl.kania.database.configuration;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,11 +10,9 @@ import javax.validation.constraints.NotBlank;
 @Setter
 @Getter
 @Component
-@ConfigurationProperties(prefix = "pl.kania.facade")
-public class FacadeProperties {
+@ConfigurationProperties(prefix = "pl.kania.dbapp")
+public class AppProperties {
 
     @NotBlank
     private String apiVersion;
-    private String pathApiWykop;
-    private String pathApiTste;
 }
